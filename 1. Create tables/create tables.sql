@@ -9,7 +9,6 @@ CREATE TABLE categories (
     depth      INT      GENERATED ALWAYS AS (nlevel(path)) STORED,
     UNIQUE (parent_id, slug)
 );
-
 CREATE INDEX categories_path_gist ON categories USING GIST(path);
 
 CREATE TABLE products (
@@ -18,7 +17,6 @@ CREATE TABLE products (
     price        NUMERIC(12,2)    NOT NULL DEFAULT 0 CHECK (price >= 0),
     category_id  uuid             NOT NULL REFERENCES categories(id) ON DELETE RESTRICT
 );
-
 CREATE INDEX products_category_idx ON products(category_id);
 
 CREATE TABLE customers (

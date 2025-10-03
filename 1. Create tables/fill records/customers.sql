@@ -1,0 +1,9 @@
+INSERT INTO customers (name, address) VALUES ('Customer 1', 'Address 1');
+INSERT INTO customers (name, address) VALUES ('Customer 2', 'Address 2');
+INSERT INTO customers (name, address) VALUES ('Customer 3', 'Address 3');
+INSERT INTO customers (name, address) VALUES ('Customer 4', 'Address 4');
+INSERT INTO customers (name, address) VALUES ('Customer 5', 'Address 5');
+INSERT INTO customers (name, address) VALUES ('Customer 6', 'Address 6');
+INSERT INTO customers (name, address) VALUES ('Customer 7', 'Address 7');
+INSERT INTO customers (name, address) VALUES ('Customer 8', 'Address 8');
+INSERT INTO customers (name, address) VALUES ('Customer 9', 'Address 9');
