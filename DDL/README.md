@@ -25,8 +25,9 @@
 ---
 ## Связанные таблицы
 
+- `products.category_id` $\rightarrow$ `categories.id` — связь товара с категорией
+- `orders.customer_id` $\rightarrow$ `customers.id` — связь заказа с клиентом
+- `order_items.order_id` $\rightarrow$ `orders.id` — позиции заказа
+
 ![Схема базы данных](schema.png)
 
-`products.category_id` $\rightarrow$ `categories.id` — связь товара с категорией
-`orders.customer_id` $\rightarrow$ `customers.id` — связь заказа с клиентом
-`order_items.order_id` $\rightarrow$ `orders.id` — позиции заказа
